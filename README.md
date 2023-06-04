@@ -13,7 +13,12 @@ Copy or open the [SGF](sgf) folder, or open each SGF file.
 ### Installing to PC with Sabaki
 
 - Download and install [Sabaki](https://appimage.github.io/Sabaki)
-- Open the [SGF](sgf) folder, or open each SGF file.
+- Click the menu bar: File / Manage Games
+- Open the [SGF](sgf) folder. Select each SGF file.
+- Sort by game name.
+- Open the problem 1.
+- Complete problem 1.
+- Click the menu bar: Navigation / Go to next game.
 
 ### Installing to iOS with Easy Go
 
