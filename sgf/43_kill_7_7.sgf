@@ -1,0 +1,51 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]BR[37k]
+KM[0]DT[2010-10-04]
+AB[ag][af][ae][ad][ac][ab][bg][bc][cg][cc][cb][dg][dc][db][da][eg][ec][eb][ea][fg][fc][fb][fa][gg][gf][ge][gd][gc][gb][ga]
+AW[bf][be][ba][cf][cd][df][de][ef][ed][fe][fd]
+ON[YOU SURROUND FIRE.  TO PUT IT OUT, KEEP IT SEPARATED.]
+C[CAN ONE PIPE KEEP FIRES SEPARATE?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'none'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+
+
+
+
+
+
+
+
+
+Adapted from Problem 102, Graded Go Problems for Beginners, Volume One.]
+PL[B]
+(;B[dd]C[PERFECT!  YOU SEPARATE THE FIRES.])
+(;B[]C[FIRE WILL SURROUND YOU!  TO WIN, RESTART.]))

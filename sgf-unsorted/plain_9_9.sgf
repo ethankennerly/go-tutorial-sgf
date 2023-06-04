@@ -1,0 +1,16 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[9]
+KM[0]DT[2010-04-29]
+C[BE CAREFUL, WHITE IS LEVEL 30!  NO GIFTS.  
+
+{
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+)

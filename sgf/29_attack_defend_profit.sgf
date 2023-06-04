@@ -1,0 +1,66 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]BR[42k]
+KM[0]DT[2010-04-29]
+AB[cc][dd][ec][dc]
+AW[bc][cb]
+ON[FIRES ARE CORNERING YOUR PIPE.  TO SAVE THE MANSION, BUILD A PIPE THAT CORNERS THE FIRES AND COOLS MANY GRAY ROOMS.]
+C[CAN ONE PIPE SAVE MANY ROOMS AND CORNER THE FIRES?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[bd]C[THIS PIPE PUSHES THE FIRE INTO A CORNER.]
+ ;W[]C[TO SAVE ROOMS, CAN YOU CORNER THE FIRE?]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[WHEN MOST ROOMS ARE BLUE, CLICK "ALL DONE".]
+)
+(;B[db]C[NOT QUITE.  FIRE WILL SURROUND THE LEFT SIDE.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]SQ[bd]
+ ;W[]C[WHEN MOST ROOMS ARE BLUE, CLICK "ALL DONE".]
+)
+(;B[]C[TO SAVE MORE ROOMS, TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+])
+)
+
+
+

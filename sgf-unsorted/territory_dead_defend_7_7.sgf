@@ -1,0 +1,68 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]BR[38k]
+KM[0]DT[2010-08-16]
+AB[af][bg][bf][be][bd][cd][ca][dd][ed][eb][ea][fd][ga]
+AW[ae][ad][ac][ab][bc][ba][cc][cb][dc][ec][fc][gc]
+PL[B]
+ON[FIRES ARE BURNING YOUR ESTATE!  YOU CANNOT SAVE ALL THE ROOMS.  WHICH DO YOU SAVE?]
+C[FIRES BURNED SOME PIPES.  HOW CAN YOU SURVIVE?
+
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[gd]C[PERFECT! SACRIFICE A FEW TO SAVE MANY.]
+)
+(;B[db]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[fb]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[gb]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[da]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[fa]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[]C[TO PROFIT, GROW THE FARM.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+)
+

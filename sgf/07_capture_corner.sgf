@@ -1,0 +1,66 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]HA[1]DT[2010-08-02]BR[46k]
+AW[aa][cc][ca][ac]
+C[CAN YOU FIND A SAFE PLACE TO BUILD?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]ON
+[IF THE FIRE SURROUNDS US, WE SUFFOCATE.
+
+IF WE SURROUND THE FIRE, WE PUT IT OUT.
+
+ALL FOUR CORNERS ARE ON FIRE.  WHERE IS SAFE?]
+(;B[bb]C[CENTER TOUCHES 4 ROOMS, SO IT IS SAFE.]SQ[ba][cb][ab][bc];W[ba]
+C[FIRE BURNS YOU!  CAN YOU SURROUND A FIRE?]
+(;B[ab]C[YOU SEPARATE THE FIRES, BUT FIRE BURNS YOU.];W[cb]
+C[FIRE BURN!  CAN YOU EXTINGUISH THE FIRES?];B[bc]
+C[YOU EXTINGUISHED ALL FIRES!]SQ[aa][ba][ca][cb][cc][ac])
+(;B[bc]C[YOU SEPARATE THE FIRES, BUT FIRE BURNS YOU.];W[ab]
+C[FIRE BURNS YOU!  CAN YOU EXTINGUISH THE FIRES?];B[cb]
+C[YOU EXTINGUISHED ALL FIRES!]SQ[cc][ca][ba][aa][ab][ac])
+(;B[cb]C[YOU SEPARATE THE FIRES, BUT FIRE BURNS YOU.];W[ab]
+C[FIRE BURNS YOU!  CAN YOU EXTINGUISH THE FIRES?];B[bc]
+C[YOU EXTINGUISHED ALL FIRES!]SQ[cc][ca][ba][aa][ab][ac])
+(;B[]
+C[FIRE WILL SUFFOCATE US!  TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+))
+(;B[]
+C[FIRE WILL SUFFOCATE US!  TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+)
+(;B[ba]
+C[FIRE WILL SUFFOCATE US!  TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+MA[ba]SQ[aa][ca]))

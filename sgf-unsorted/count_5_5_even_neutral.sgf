@@ -1,0 +1,5 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-29]
+;B[bb];W[dd];B[bc];W[dc];B[cb];W[cd];B[db];W[bd];B[eb];W[ad]
+;B[ac];W[ec];B[ba];W[de]C[Did black WIN, LOSE, or DRAW?]
+LB[ce:LOSE][cc:DRAW][ca:WIN])

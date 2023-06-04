@@ -1,0 +1,58 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]HA[2]BR[46k]
+KM[0]DT[2010-08-02]
+AB[ba][bc]AW[cb][ab]PL[B]
+ON[IN THE CENTER OF THIS HOUSE, TWO FIRES WILL SEPARATE OUR PIPES.
+
+TO PUT OUT ALL FIRES, CONNECT THE PIPES TOGETHER.]
+C[CAN YOU CONNECT THE PIPES?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(
+ ;B[bb]C[THIS WALL SEPARATES THE FIRES.]
+ ;W[]C[CAN YOU SURROUND EVERY FIRE?]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[WHEN EVERY ROOM IS SURROUNDED, CLICK "ALL DONE".]
+)
+(;B[]
+C[OH NO, FIRE WILL SEPARATE THE PIPES!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+)

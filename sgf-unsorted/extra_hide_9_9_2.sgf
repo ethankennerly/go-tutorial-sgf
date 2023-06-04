@@ -1,0 +1,38 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[9]
+KM[0]DT[2010-04-29]
+C[
+{
+    'option_mc': {
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'gift'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'hide'},
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_4'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[]
+ ;W[]C[{'tutor_mc': {'currentLabel': 'hide'}}]
+)
+)

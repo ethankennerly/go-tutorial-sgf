@@ -1,0 +1,50 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]PW[GNU Go Level 1]DT[2010-09-29]
+AB[ae][ad][bd][ce][cd][cc][de][dd][ee][ed][ec]
+AW[ab][aa][bc][bb][ca][db][eb][ea]
+C[CAN ONE PIPE KEEP THE FIRES SEPARATE?
+
+
+Adapted from Problem 42, Graded Go Problems for Beginners Volume One.
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]ON
+[IN YOUR MANSION, FIRE IS SURROUNDING YOU.  TO SURVIVE, KEEP THE FIRES SEPARATED.
+
+
+
+
+]
+(;B[cb]C[PERFECT!  YOU SEPARATED THE FIRES.])
+(;B[]C[UH OH, THE FIRES CAN CONNECT.  PLEASE RESTART.]))

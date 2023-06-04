@@ -1,0 +1,65 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+HA[2]DT[2010-04-30]
+AB[ce]
+C[HOW CAN ONE CASTLE DEFEND ANY SIDE?
+{ 
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'dominate_5_5'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]ON
+[WE STOPPED MOST, BUT SOME DRAGONS ARE INVADING.
+
+TRAIN A COMMANDER! A COMMANDER SURVEYS LAND AND CONQUERS DRAGONS.]
+(;B[cc]C[PERFECT! CENTER CAN DEFEND ANY SIDE.];W[]
+C[DRAGONS INVADING!  BUILD A FORT.];B[];W[];B[];W[];B[];W[]
+C[CONNECT THE FORT AND SURROUND ALL DRAGONS.];B[];W[]
+;B[];W[];B[];W[];B[];W[];B[];W[];B[];W[]
+C[AFTER ALL LAND IS SAFE, CLICK PEACE.])
+(;B[]
+C[UH OH, THE DRAGON WILL PUSH US TO THE EDGE.
+{
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[aa]
+C[
+{
+    #'tutor_mc': {'currentLabel': 'corner'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))

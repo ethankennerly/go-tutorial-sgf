@@ -1,0 +1,47 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]BR[31k]
+KM[0]PW[GNU Go Level 1]DT[2010-10-06]
+AB[bb][bc][bd][be][ce][cf][df][ef][ff][fe][fd][fc][fb][bf][ae][dg][eg][fg][gg][gf][ge][gd][gc][gb][ab][ac][ad][aa][ga]
+AW[cb][cc][cd][dc][ec][ed][de][ee][eb][bg]
+C[CAN ONE PIPE SAVE THE HOUSE?
+
+
+
+
+Adapted from Problem 226, Graded Go Problems for Beginners Volume One.
+
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'none'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;B[da]C[PERFECT!  YOU CAN CONNECT BY EITHER ROOM.])
+(;B[]C[FIRE WILL SURROUND YOU!  TO WIN, RESTART.]))

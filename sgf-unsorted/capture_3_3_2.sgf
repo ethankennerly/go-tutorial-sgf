@@ -1,0 +1,139 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-04-30]
+ON[BABY DRAGONS ARE HEADED FOR OUR VILLAGE. STOP THEM.
+
+TRAIN BERZERKERS!  BERZERKER SURVIVES THE HEAT LONG ENOUGH TO CATCH A DRAGON.]
+C[CAN ONE CASTLE DEFEND 9 LAND?  CLICK A LAND.
+{
+    #'tutor_mc': {'currentLabel': 'start'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'capture_village'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(;B[bb]
+C[PERFECT! CENTER DEFENDS ALL FOUR SIDES.
+{
+    #'tutor_mc': {'currentLabel': 'question'}
+}]
+(;W[ba]C[SNOW DRAGON TAKES ONE LAND!  CASTLE HAS 3 LEFT.]SQ[ab][cb][bc]
+(;B[ab]C[GREAT! WE TOUCH 4 LAND AND CORNER THE DRAGON.]SQ[ac][bc][cb][aa];
+W[cb]C[A NEW DRAGON BLOCKS ONE LAND.  WE HAVE 3 LEFT.]CRSQ[bc][ac][aa]
+(;B[aa]C[WE HAVE 2 LAND, THE TOP DRAGON HAS ONE!]SQ[ca]
+(;W[bc]C[DANGER! THE BOTTOM DRAGON LEAVES US ONE LAND!]SQ[ac];B[ca]
+C[BERZERKER CAPTURES AND TAKES ONE LAND.]SQ[ba])
+(;W[ca]C[DRAGON CONNECTS, BUT IT ONLY HAS ONE LAND.];B[cc]
+C[SO THE CORNER SURROUNDS THE DRAGON!]))
+(;B[cc]
+C[ONLY ONE LAND LEFT, SO DRAGON WILL EAT US!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[bc]LB[cc:BM])
+(;B[bc]C[GOOD.  YOU ARE CORNERING THE DRAGON.];W[ca]
+C[THE DRAGON HAS TWO LAND, WE HAVE THREE.]SQ[cc][aa];B[aa]
+C[THE DRAGON HAS NO LAND TO GROW.];W[]
+(;B[cc]C[THE CASTLE TAKES THE DRAGON'S LAST LAND!])
+(;B[ac]
+C[ONE LAND LEFT? THE DRAGON WILL SURROUND US!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[ac]
+C[UH OH, WE BUILT ON OUR LAND.  ONLY 2 LEFT!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[aa][bc]LB[ac:BM]))
+(;B[aa]
+C[GULP, DRAGONS STRIKE THREE SIDES!!!  ONE LEFT!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[ab]LB[aa:BM])
+(;B[ac]
+C[UH OH, ONLY TWO LAND LEFT!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[ab][bc]LB[ac:BM])
+(;B[bc]
+C[SAFE, BUT IT DOES NOT SURROUND THE DRAGON.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[TRY ANOTHER PLACE TO SURROUND THE DRAGON.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;W[]
+C[CAN YOU SURROUND A DRAGON?
+ {
+    #'tutor_mc': {'currentLabel': 'black_danger'}
+ }]
+;B[];W[]
+C[
+ {
+    #'tutor_mc': {'currentLabel': 'black_warning'}
+ }]
+;B[];W[]
+C[
+ {
+    #'tutor_mc': {'currentLabel': 'white_danger'}
+ }]
+))
+(;B[aa]
+C[DRAGON STRIKES TWO SIDES.  ONLY TWO LAND LEFT!
+{
+    #'tutor_mc': {'currentLabel': 'corner'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+MA[aa]SQ[ba][ab]LB[aa:BM])
+(;B[ba]
+C[DRAGON STRIKES ONE SIDE AND WILL SURROUND US.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[ca][bb][aa]LB[ba:BM]))

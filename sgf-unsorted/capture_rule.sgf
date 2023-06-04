@@ -1,0 +1,54 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-08-02]
+AB[ba][ab][cb]AW[bb]PL[B]
+C[TO SURROUND THE DRAGON, CLICK WHERE?
+{
+    #'tutor_mc': {'currentLabel': 'strike'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'none'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'strike'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(;B[bc]C[PERFECT!  DRAGON CAPTURED.
+{
+    #'tutor_mc': {'currentLabel': 'capture_question'}
+}
+])
+(;B[]
+C[CAN YOU SURROUND A DRAGON?  TRY AGAIN.
+{
+    #'tutor_mc': {'currentLabel': 'please_capture'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+)

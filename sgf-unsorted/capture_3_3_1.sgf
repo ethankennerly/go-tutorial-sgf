@@ -1,0 +1,124 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]PB[FIREMAN]PW[FIRE]BR[47k]WR[40k]DT[-900]RO[CORNERING]
+C[WHERE IS SAFE? CLICK A ROOM.
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}]
+PL[B]EV[SURROUND A FIRE]GC[EXTINGUISH A FIRE IN THE CORNER.]ON
+[HELP!  YOUR HOUSE IS CATCHING FIRE.  
+
+SURROUND ONE FIRE.  DO NOT LET THE FIRE SURROUND YOU.]
+PC[NEW YORK]
+(;B[bb]C[CENTER HAS 4 ROOMS, SO IT IS SAFE.]SQ[ba][cb][bc][ab];W[bc]
+C[FIRE! CAN YOU TRAP IT?]
+(;B[ab]C[GREAT! YOU BLOCK ONE SIDE.];W[cb]
+C[THE FIRE IS SPREADING!  WHERE IS SAFE?]
+(;B[ba]C[GREAT! YOU BLOCK THE FIRE.]SQ[aa];W[ca]C[CAN YOU SURROUND THAT FIRE?]
+(;B[cc]C[GREAT! YOU SURROUNDED A FIRE!])
+(;B[aa]
+C[OH NO! THE FIRE WILL SURROUND YOU!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ac]
+C[OH NO! THE FIRE WILL SURROUND YOU!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[ac]C[YOU ALMOST SURROUND THE FIRE!];W[cc]
+C[THE FIRE IS CORNERED.  SURROUND IT!]
+(;B[ca]C[GREAT! YOU SURROUNDED THE FIRE!])
+(;B[aa]
+C[OH NO! FIRE WILL SURROUND YOU!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[SAFE, BUT YOU CAN SURROUND QUICKER.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[ca]))
+(;B[aa]
+C[UH OH, FIRE WILL TRAP YOU IN THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[OH NO! FIRE WILL SURROUND THAT CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[aa]
+C[UH OH, FIRE WILL TRAP YOU IN THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+MA[aa])
+(;B[ba]
+C[UH OH, FIRE MAY BURN THREE SIDES!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+MA[ba]SQ[ab][cb])
+(;B[ac]
+C[OH NO! FIRE WILL SURROUND THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[aa]
+C[UH OH, FIRE MAY CORNER US. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+MA[aa]SQ[bb]LB[aa:BM])
+(;B[ba]
+C[UH OH, FIRE CAN SURROUND THE SIDE. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+MA[ba]SQ[bb]LB[ba:BM]))

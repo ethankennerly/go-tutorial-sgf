@@ -1,0 +1,146 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]HA[2]BR[44k]
+KM[0]DT[2010-08-23]
+AB[ab][bc][cc][dc]AW[ad][bd][cd][dd][ed]
+ON[FIRE BURNS A HOT RED ROOM (-1 DOLLAR EACH).  PIPES SAVE A COLD BLUE ROOM (+1 DOLLAR EACH).
+
+TO SAVE THE HOUSE, SAVE MANY BLUE ROOMS.]
+
+C[TO BLOCK THE FIRE, CAN YOU MAKE A WALL?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+PL[B]
+(;B[ec]C[THE WALL KEEPS THE FIRE OUT.];W[ac]
+C[UH OH!  THE WALL HAS A GAP.]
+(;B[bb]C[YOU SEALED THE GAP.  MANY BLUE ROOMS WIN.];W[]
+C[MANY BLUE ROOMS WIN, SO CLICK "ALL DONE".])
+(;B[ba]C[YOU PROTECT THE CORNER.  MANY BLUE ROOMS WIN.];W[]
+C[MANY BLUE ROOMS WIN, SO CLICK "ALL DONE".])
+(;B[]
+C[FIRE WILL BREAK IN AND BURN EVERYTHING!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[ac]
+C[UH OH, ON THE OTHER END, FIRE WILL BREAK IN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[bb]
+C[UH OH, ON THE OTHER END, FIRE WILL BREAK IN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ae]
+C[OH NO!  FIRE WILL BREAK IN!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[be]
+C[FIRE WILL BREAK IN!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ce]
+C[FIRE WILL BREAK IN!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[de]
+C[FIRE WILL BREAK IN!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ee]
+C[UH OH, FIRE WILL BREAK IN!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[db]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[eb]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[cb]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[aa]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ba]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ca]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[da]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ea]
+C[CAN YOU SAVE MORE ROOMS?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

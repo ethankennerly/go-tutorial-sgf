@@ -1,0 +1,63 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]BR[37k]
+KM[0]DT[2010-08-15]
+AB[ad][aa][bd][cd][ca][de][dc]
+AW[ae][ac][be][bc][cb][db][da][eb]
+PL[B]
+ON[A FIRE IS BURNING YOUR MANSION!  WHICH ROOMS CAN YOU SAVE?]
+C[FIRES BURNED SOME ROOMS.  HOW CAN WE SURVIVE?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[ec]C[PERFECT! SACRIFICE A FEW TO SAVE MANY.]
+)
+(;B[bb]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[ba]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[ab]C[SORRY, BUT THESE ROOMS ARE DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[ce]C[THOSE DRAGONS ARE ALREADY DOOMED.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+(;B[]C[HOW CAN YOU INCREASE YOUR FARM?
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+)
+

@@ -1,0 +1,16 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-05-03]
+C[{'profit_mc': {'currentLabel': 'show'}} 
+ 
+CHOCOLATE:  SPRINKLE WHERE YOU MIGHT GET CAKE.]
+;B[cc]C[IN THE MIDDLE WE GET A LOT OF CHOCOLATE!];W[bd]
+C[{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+} 
+
+CAN YOU CUT THE BIGGEST SLICE OF CAKE?]
+)

@@ -1,0 +1,13 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-04-30]
+C[HERE IS A NEW CAKE.  LET'S CUT IN THE MIDDLE.];B[bb];W[ac]
+C[CAN YOU EAT THE WHOLE CAKE?
+
+{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+}]
+)

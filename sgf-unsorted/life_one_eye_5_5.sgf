@@ -1,0 +1,19 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]PW[GNU Go Level 1]DT[2010-09-29]
+AB[bb][cb][db][eb][ca]AW[bc][cc][dc][ec][ac][ad][bd][cd][dd][ed][ce][ae][ee]
+C[Adapted from Graded Go Problems for Beginners, page 15, Life & Death.]PL[B]
+(;B[ab];W[])
+(;B[aa];W[ab]
+(;B[];W[ba]
+(;B[da])
+(;B[];W[aa];B[da];W[ea]))
+(;B[ba];W[da];B[ea];W[da])
+(;B[da];W[ba];B[];W[ea])
+(;B[ea];W[ba];B[];W[da]))
+(;B[ea])
+(;B[da]
+(;W[ba])
+(;PL[B]))
+(;AB[da][ba]AW[be][de]AE[ee]PL[B]
+(;B[ab])
+(;B[aa];W[];B[ab];W[ea])))

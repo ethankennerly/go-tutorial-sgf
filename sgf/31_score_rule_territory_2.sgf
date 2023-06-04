@@ -1,0 +1,51 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]BR[43k]
+KM[0]DT[2010-08-02]
+AB[cb][cc][cd][ce][bd][be][ad][dd][ed]
+AW[ba][bb][bc][ac][da][db][dc][ec]
+PL[B]
+ON[TWO FIRES WILL CONNECT AND BURN YOUR MANSION.
+
+SEPARATING THE FIRES EARNS ENOUGH DOLLARS TO BUY A GOLD PIPE.]
+C[CAN ONE PIPE SAVE ALL THE ROOMS?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(;B[ca]C[PERFECT! GOLD PIPE SAVES MANY ROOMS.]
+;W[]C[ALL ROOMS ARE BLUE, SO CLICK "ALL DONE".])
+(;B[]
+C[CONNECTED FIRES BURN 4 ROOMS, YOU ONLY SAVE 3.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]SQ[aa][ab][ea][eb]
+))

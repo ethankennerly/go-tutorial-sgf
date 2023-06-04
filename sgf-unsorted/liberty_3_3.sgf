@@ -1,0 +1,23 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-04-29]
+C[{'liberty_mc': {'currentLabel': 'warn'}}
+
+WITH YOUR FORK, YOU CAN EAT BLUE CAKE!]
+;B[bb]C[TO NOT GET EATEN, START IN THE MIDDLE.];W[ba]
+C[YELLOW BITE:  IF CUT TWO MORE TIMES, WE EAT.];B[cb]
+C[LET'S BE SURE BLUE DOES NOT EAT US FIRST.
+]
+;W[ca]C[RED BITE: IF CUT ONE MORE TIME, WE EAT.  WATCH!];B[aa]
+C[WE ATE TWO PIECES OF CAKE!  SO SCORE +2];W[ca]
+C[PINK CANDLE: WE ATE IT. BLUE CANNOT TAKE THAT.  ];B[ba]
+C[OOPS!  I CUT OUR PINK CANDLE.  SORRY.];W[ac]
+C[{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+} 
+
+CAN YOU EAT HIS CAKE?]
+)

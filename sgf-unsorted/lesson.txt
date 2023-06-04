@@ -1,0 +1,11 @@
+capture_3_3.sgf
+capture_5_5.sgf
+dominate_3_3.sgf
+dominate_5_5.sgf
+score_5_5.sgf
+extra_stone_7_7.sgf
+extra_stone_7_7_2.sgf
+extra_stone_9_9.sgf
+hide_5_5.sgf
+hide_7_7.sgf
+hide_9_9.sgf

@@ -1,0 +1,207 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-08-02]
+AB[aa]
+C[YOUR CASTLE IS ON FIRE!  CLICK THE CENTER.
+{
+    #'tutor_mc': {'currentLabel': 'black_danger'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'black_danger'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]SQ[bb]ON
+[A FIRE DRAGON BURNS A CASTLE IT SURROUNDS.
+
+A CASTLE THROWS WATER ON A DRAGON IT SURROUNDS.  
+
+SO TO GUARD OUR BURNING CASTLE, BUILD IN THE CENTER.]
+(;AW[aa][cc]PL[B]
+(;AB[cb]AW[ab][bc]AE[cc][aa]PL[B]
+(;AE[cb]PL[B]
+(;AW[ba]AE[bc][ab]PL[B]
+(;AW[aa]AE[ba]PL[W]
+(;AW[cc]
+C[CAN YOU SEPARATE THE DRAGONS?
+{
+    #'tutor_mc': {'currentLabel': 'black_danger'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'black_danger'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;B[bb]C[YOU CUT THE DRAGONS APART!];W[ca]C[UH OH, ]
+(;B[ba]C[YOU CUT THE DRAGONS APART!];W[bc]
+(;B[ab])
+(;B[cb]))
+(;B[ab]C[YOU CORNER A DRAGON!];W[cb])
+(;B[ac]C[DRAGONS BURN CORNERS!  TRY AGAIN.];W[ba]))
+(;B[ba]
+C[THE DRAGON BURNS YOUR CASTLE!  TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ca]C[DRAGONS BURN CASTLES IN THE CORNER! TRY AGAIN.]))
+(;W[bb])
+(;PL[B];B[bb];W[ca];B[ba])
+(;AW[ca][ac][cc]
+C[CAN YOU FIND A SAFE PLACE TO BUILD?
+{
+    #'tutor_mc': {'currentLabel': 'black_danger'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'black_danger'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;B[bb];W[ba]MA;B[ab];W[cb];B[bc])
+(;B[ba]
+C[DRAGONS WOULD SURROUND US!  TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)))
+(;B[bb];W[ab];B[bc];W[cb]))
+(;B[bb];W[ba];B[cb]))
+(;B[bb]))
+(;B[bb];W[ba];B[ab];W[ca];B[cb]))
+(;B[bb]C[CENTER IS SAFE!  WATCH DRAGON.];W[ba]
+C[FIRE DRAGON HATCHED!  SURROUND IT!]SQ[ca]
+(;B[ca]C[YOU SURROUNDED!  ])
+(;B[]
+C[CAN YOU SURROUND A DRAGON?
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ab]
+C[SAFE. BUT TO SURROUND DRAGON, TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[ca])
+(;B[cb]
+C[UH OH, DRAGON WILL SURROUND CORNER. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[ab])
+(;B[ac]
+C[DRAGON WILL STILL SURROUND CORNER. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[ab])
+(;B[bc]
+C[UH OH, DRAGON WILL SURROUND CORNER. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[ab])
+(;B[cc]
+C[DRAGON WILL SURROUND CORNER. TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[ab]))
+(;B[ba]
+C[THE EDGE IS NOT SAFE.  CLICK THE CENTER.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+SQ[bb])
+(;B[]
+C[HERE IS NOT SAFE. PLEASE CLICK THE CENTER.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

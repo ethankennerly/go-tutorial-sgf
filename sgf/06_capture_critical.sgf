@@ -1,0 +1,108 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]PW[GNU Go Level 1]DT[2010-08-29]BR[47k]
+AB[cc]AW[cd]
+ON[IN YOUR HOUSE, FIRES ARE TRAPPING YOUR FIREMEN.
+WHEN YOU SEE A TRAP, PLAN YOUR ESCAPE.]
+C[CAN YOU SURROUND A FIRE?  CLICK A ROOM.
+{
+    #'tutor_mc': {'currentLabel': 'black_critical'},
+
+    'option_mc': {
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'black_critical'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;B[bd]C[GREAT! TWO MEN PUSH THE FIRE TO THE EDGE.];W[bc]
+C[TRAP! CAN YOU ESCAPE?]
+(;B[bb]C[GREAT! YOU CAN TRAP A FIRE FIRST.];W[be]C[TRAP! CAN YOU ESCAPE?]
+(;B[ac]C[GREAT! BE SURE TO WATCH OUT FOR TRAPS.];W[ad])
+(;B[ad]
+C[CLEVER! BUT THERE IS A QUICKER WAY TO SURROUND.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[cb];B[dc];W[dd];B[db];W[ab]
+(;B[ac];W[])
+(;B[ba];W[]))
+(;B[]
+C[THE FIRE WILL SURROUND THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[ad]))
+(;B[dd]C[GREAT! YOU TRAP THE FIRE.];W[ad]C[TRAP! CAN YOU ESCAPE?]
+(;B[ce]C[GREAT! BE SURE TO WATCH OUT FOR TRAPS.];W[be])
+(;B[be]
+C[CLEVER! BUT THERE IS A QUICKER WAY TO SURROUND.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[dc];B[cb];W[bb];B[db];W[ed]
+(;B[ce];W[de])
+(;B[ec];W[]))
+(;B[]
+C[THE FIRE WILL SURROUND THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[be]))
+(;B[]
+C[UH OH, A FIRE WILL SURROUND THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[bd]))
+(;B[]
+C[THIS IS NOT THE QUICKEST WAY TO SURROUND.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[bc])
+(;B[bc]
+C[SAFE, BUT NOT THE QUICKEST WAY TO SURROUND.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[dc])
+(;B[ce]
+C[2 ROOMS LEFT? THE FIRE WILL SURROUND THE SIDE!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[be][de];W[be]))

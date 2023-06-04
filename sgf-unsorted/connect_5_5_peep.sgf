@@ -1,0 +1,39 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-22]RE[B+5]
+C[HELP ME!  WATCH...
+
+{
+    'territory_mc': {
+        'currentLabel': 'show'
+    },
+    'liberty_mc': {
+        'currentLabel': 'warn'
+    },
+    'profit_mc': {
+        'currentLabel': 'show'
+    },
+    'attack_mc': {
+        'currentLabel': 'show'
+    },
+    'defend_mc': {
+        'currentLabel': 'show'
+    },
+    'dead_mc': {
+        'currentLabel': 'show'
+    },
+}
+
+]
+;B[dc]C[CHOCOLATE:  BIG SLICE!];W[bb];B[bc]C[PINK HEART:  DEFEND.];W[db];B[ec]
+C[BLUE MAY CUT IN, SO I BLOCK.];W[ab];B[ac]C[I MAY CUT IN...  SO BLUE BLOCKS.]
+;W[eb];B[ca];W[cb]
+C[OOPS.  BLUE ATTACKS!  WHERE DO WE DEFEND?
+
+{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+} ]
+)

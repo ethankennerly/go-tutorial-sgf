@@ -1,0 +1,208 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]BR[40k]
+KM[0]PW[GNU Go Level 1]DT[2010-08-21]
+ON[YOUR NEW MANSION IS CATCHING FIRE!
+TO SAVE YOUR MANSION, SEPARATE THE FIRES AND CORNER THEM.]
+C[CAN ONE PIPE SAVE FOUR SIDES?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+]
+(;B[cc]C[PERFECT!  THE CENTER SAVES FOUR SIDES.];W[cb]
+C[YOUR HOUSE IS ON FIRE!  CAN YOU SAVE MANY ROOMS?]
+(;B[bb]C[TWO PIPES BOLDLY PUSH THE FIRE TO THE EDGE.];W[bc]
+C[FIRES ARE FIGHTING!  CAN YOU FIGHT BACK?]
+(;B[db]C[YOU TRAPPED A FIRE AGAINST THE EDGE! ];W[ab]
+C[OUR PIPE NEEDS ROOM.  CAN YOU MAKE ROOM?]
+(;B[ca]C[TWO ROOMS FEED THE CORNER PIPE, FOR NOW...];W[ba]
+C[CAN YOU MAKE ROOM FOR THE BURNING PIPE?]
+(;B[cb]C[FOUR ROOMS FEED THE CONNECTED PIPE.];W[]
+C[CONGRATULATIONS! YOU SAVED YOUR NEW MANSION.])
+(;B[aa]C[THE FIRE CANNOT STRIKE BACK JUST YET.];W[]
+C[CONGRATULATIONS! YOU SAVED YOUR NEW MANSION.])
+(;B[]
+C[THE FIRE WILL EAT OUR PIPE.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[ba]C[TWO ROOMS COOL, WHILE YOU GUARD THE CORNER.];W[dc]
+(;B[cd]C[YOU TOUCH THREE ROOMS AND CUT THE FIRES APART!];W[bd]
+(;B[dd]C[THREE ROOMS COOL THE PIPE, AND YOU TRAP A FIRE!])
+(;B[ca]C[THE FIRES WILL TRY TO CONNECT.];W[dd];B[be];W[])
+(;B[be]C[THE FIRES WILL TRY TO EAT YOU.];W[dd])
+(;B[ce]C[THE FIRES WILL TRY TO EAT YOU.];W[dd]
+C[THE FIRES WILL TRY TO EAT YOU.];B[be];W[])
+(;B[]
+C[CAN YOU PREVENT THE FIRES FROM CORNERING YOU?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[]
+C[FIRES WILL EAT THE CENTER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[THE FIRE WILL EAT THE CORNER.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE FIRE WILL EAT THE CORNER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[THE FIRES WILL SURROUND THAT CORNER.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[FIRES MAY SURROUND ONE OF US!  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[FIRE MAY SPREAD.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[dc]
+C[FIRE WILL SURROUND THE CORNER.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[]
+C[FIRE WILL SURROUND THE CORNER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[bd]
+C[GREAT! MAKE THIS SAME PATTERN FACING THE OTHER WALL.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[bc]
+C[THIS IS SAFE, BUT FIRE WILL SURROUND ROOMS.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'},
+}
+]
+)
+(;B[aa]
+C[THE CORNER IS NEARLY SURROUNDED.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[FIRE WILL SEPARATE YOUR PIPES!  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[FIRE WILL SEPARATE YOUR PIPES!  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE FIRE WILL TAKE MORE.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[A CORNER IS HALF-FROZEN.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[A SIDE ONLY SAVES A FEW ROOMS.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[A SIDE ONLY SAVES A FEW FARMS.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[bb]
+C[THIS PIPE ONLY SAVES ONE CORNER.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[cb]
+C[THIS PIPE ONLY SAVES THREE SIDES.  TRY AGAIN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE FIRE WILL SURROUND ROOMS.  TRY AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

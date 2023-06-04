@@ -1,0 +1,20 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-04-30]
+C[DO NOT GET SURROUNDED.
+
+{
+    'territory_mc': {
+        'currentLabel': 'none'
+    }, 
+    'dead_mc': {
+        'currentLabel': 'none'
+    },
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+}
+
+]
+)

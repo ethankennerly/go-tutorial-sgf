@@ -1,0 +1,58 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]BR[48k]DT[2010-08-02]
+AB[bb]AW[ba]
+C[FIRE BURNS!  WHERE IS SAFE?  CLICK A ROOM.
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'none'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]ON
+[WHEN A FIRE TOUCHES YOU, IT BURNS.  IF THE FIRE SURROUNDS YOU, YOU DIE.
+
+TO PUT OUT A FIRE, SURROUND IT.]
+(;B[ab]C[GOOD!  YOU BLOCK THE FIRE ON ONE SIDE.];W[bc]
+C[FIRE BURNS!  TO SEPARATE THE FIRES, CLICK A ROOM.]
+(;B[cb]C[GREAT!  SEPARATE FIRES ARE EASY TO PUT OUT.];W[aa]
+C[FIRE BURNS!  TO PUT OUT A FIRE, CLICK A ROOM.]
+(;B[ca]C[PERFECT!  YOU PUT OUT A FIRE.])
+(;B[]
+C[TO PUT OUT A FIRE NOW, TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+))
+(;B[]
+C[FIRES MAY CONNECT AND SURROUND!  TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+SQ[cb]))
+(;B[]
+C[FIRE WILL SURROUND YOU!  TRY AGAIN.
+{'bad_move_mc': {'currentLabel': 'show'}}]
+))

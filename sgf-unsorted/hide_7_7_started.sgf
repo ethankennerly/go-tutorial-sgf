@@ -1,0 +1,42 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]
+KM[0]DT[2010-05-06]
+C[CHOCOLATE, STAR, OR HEART:  SECRET PIECE!  WATCH.
+
+{
+    'territory_mc': {
+        'currentLabel': 'show'
+    },
+    'liberty_mc': {
+        'currentLabel': 'warn'
+    },
+    'profit_mc': {
+        'currentLabel': 'show'
+    },
+    'attack_mc': {
+        'currentLabel': 'show'
+    },
+    'defend_mc': {
+        'currentLabel': 'show'
+    },
+    'dead_mc': {
+        'currentLabel': 'show'
+    },
+    'hide_mc': {
+        'currentLabel': 'gift'
+    },
+}
+]
+;B[dd];W[cc];B[ee];W[cd]
+C[CAN YOU CUT SECRETLY?  CLICK SECRET PIECE.  
+
+{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {
+                 'dispatchEvent': 'mouseDown'
+            } 
+        } 
+    },
+} 
+]
+)

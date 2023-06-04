@@ -1,0 +1,47 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[9]BR[26k]
+KM[0]DT[2010-04-29]
+ON[ARSONS ARE SETTING FIRE TO YOUR HOTEL!
+TO HIDE YOUR PIPES FROM ARSONS, HIRE A PLUMBER.  TO HIRE A PLUMBER, BUILD A FIREWALL OR SPRINKLER.]
+C[CAN ONE PIPE PREVENT AND CORNER FIRES?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'none'},
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_4'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'gift'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_4'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[TO HIRE PLUMBER, CLICK GREEN PIPE.]
+)
+)

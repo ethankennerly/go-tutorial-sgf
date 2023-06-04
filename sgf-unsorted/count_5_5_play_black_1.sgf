@@ -1,0 +1,17 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-05-04]RE[W+25.0]
+C[HELP ME CUT THIS CAKE.  WATCH.
+{'territory_mc': {'currentLabel': 'show'}}
+];B[bb];W[dd]C[WE ARE NOT CUTTING MUCH.];
+B[db];W[bd]C[BOTH OF US ARE CUTTING SMALL SLICES.];B[cb];W[cd];B[ab];W[ad]
+C[BLUE IS CUTTING A SLICE.];B[dc];W[ed]
+C[NOW, CAN YOU FINISH WITH THE BIGGER SLICE?
+
+        { 
+            'game_over_mc': { 
+                'white_computer_mc': { 
+                    'enter_mc': {'dispatchEvent': 'mouseDown'} 
+                } 
+            } 
+        } ]
+)

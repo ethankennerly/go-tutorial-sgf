@@ -1,0 +1,63 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]BR[46k]
+KM[0]DT[2010-04-30]
+ON[FIRE IS STARTING IN A NEW HOUSE.  BUILD PIPES TO SURROUND EVERY ROOM.]
+C[TO SURROUND EVERY ROOM, WHERE CAN YOU START?
+{
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(;B[bb]C[CENTER MAY SURROUND ALL FOUR SIDES.
+{
+#'tutor_mc': {'currentLabel': 'question'}
+}]
+ ;W[]C[CAREFUL, THE FIRE MAY SURROUND YOU.]
+
+ ;B[]
+ ;W[]C[CAN YOU SURROUND EVERY FIRE?]
+ ;B[]
+ ;W[]C[WHEN YOU SURROUND ALL ROOMS, CLICK "ALL DONE".]
+)
+(;B[]
+C[UH OH, FIRE WILL SURROUND THE SIDE!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[aa]
+C[OH NO! FIRE WILL SURROUND THE CORNER!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+)

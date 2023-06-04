@@ -1,0 +1,40 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[9]
+KM[0]DT[2010-04-29]
+C[
+
+{
+    'tutor_mc': {'currentLabel': 'black_attack_defend'},
+    'option_mc': {
+        'hide_available_mc': {'currentLabel': '_0'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'show'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'show'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'gift'},
+}
+
+]
+;B[]C[{'tutor_mc': {'currentLabel': 'black_attack_defend'}}]
+;W[]C[{'tutor_mc': {'currentLabel': 'extra_stone'}}]
+;B[]
+;W[]C[{'tutor_mc': {'currentLabel': 'extra_stone_tip'}}]
+;B[]
+;W[]
+;B[]
+;W[]
+;B[]
+;W[]C[{'tutor_mc': {'currentLabel': 'none'}}]
+)
